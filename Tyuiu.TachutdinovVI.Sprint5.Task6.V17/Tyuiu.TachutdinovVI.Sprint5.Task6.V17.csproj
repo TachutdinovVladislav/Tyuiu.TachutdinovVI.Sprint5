@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Tyuiu.TachutdinovVI.Sprint5.Task6.V17.Lib/Tyuiu.TachutdinovVI.Sprint5.Task6.V17.Lib.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Examples/InPutDataFileTask6V17.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="DataSprint5/InPutDataFileTask6V17.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
